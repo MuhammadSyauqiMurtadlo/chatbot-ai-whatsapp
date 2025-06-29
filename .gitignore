@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+
+# WA Web.js auth & cache
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Environment file
+.env
+
+# Log files
+*.log
+
+# Optional: VSCode config
+.vscode/
