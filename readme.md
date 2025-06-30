@@ -1,20 +1,4 @@
-Muhammad Syauqi Murtadlo (2202041082) -WhatsApp AI Assistant
-
-Bot WhatsApp yang terintegrasi dengan Groq API (LLM) sebagai asisten AI.
-User bisa bertanya via WhatsApp dengan awalan `.AI` di setiap pesan, bot akan membalas secara otomatis menggunakan AI Groq (model `compound-beta`).
-Terdapat juga endpoint API untuk akses AI langsung via HTTP.
-
----
-
-## Fitur
-
-- Auto-reply WhatsApp: Bot membalas semua pesan berawalan `.ai` secara otomatis menggunakan AI.
-- Dukungan Bahasa Indonesia: Sistem asisten sudah diatur untuk bahasa Indonesia.
-- API Endpoint: Endpoint `/ai` untuk query AI via HTTP (POST).
-- Auto Guide: Pesan guide akan dikirimkan otomatis jika user belum pakai `.ai`.
-- Health Check: Endpoint `/` untuk cek server hidup.
-- Auto Reconnect: Bot WhatsApp auto-reconnect jika disconnect.
-- CORS Support: Sudah support akses dari berbagai origin.
+Muhammad Syauqi Murtadlo (2202041082) - WhatsApp AI Assistant
 
 ### 1. Install Dependency
 
@@ -76,20 +60,6 @@ Response:
   "reply": "Penjelasan dari AI..."
 }
 ```
-
----
-
-## Dependency Utama
-
-- [express](https://www.npmjs.com/package/express)
-- [body-parser](https://www.npmjs.com/package/body-parser)
-- [cors](https://www.npmjs.com/package/cors)
-- [whatsapp-web.js](https://wwebjs.dev/)
-- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
-- [groq-sdk](https://www.npmjs.com/package/groq-sdk)
-- [dotenv](https://www.npmjs.com/package/dotenv)
-
----
 
 ## Troubleshooting
 
